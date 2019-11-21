@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/culture-trip.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-markdown>
+					<textarea data-template>
+						# Banner Framework
+
+						A presentation from [Mike Stezycki](https://stez.me).
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Intro
+
+						🙋‍♀️ Hands up if you know what I’m going to be talking about for the next 40 minutes?
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Background
+
+						Over the year we've shown we can reliably move people around the site using bespoke banners and sticky buttons.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## The Problem
+
+						* Iterating is slow  
+						* Outdated creative  
+						* Often bespoke designs
+						* Shipping to UA is hard
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## What we need
+
+						A **flexible** and **robust** design framework to deliver promotions that can be changed easily.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## What we've done
+
+						Grouped banners into categories, broken down into parts, added constraints and stress tested the parts.  
+
+						We've then identified what works and what doesn't.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Still to do
+
+						We've limited the scope to two banners but need to explore more options and more component combinations.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Banner Categories
+
+						* Single action banner  
+						* Multi action banner
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Single Action Banner Break-down
+
+						* Media
+						* Title
+						* CTA
+
+						Could also include a description and/or a form.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Single Action Banner Footprint
+
+						* Islet
+						* Narrow Banner
+						* Wide Banner
+						* Pagelet
+						* Modal
+						* Sidebar/panel
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Constraints
+
+						* Grid (12 columns)
+						* Font family (Proxima Nova)
+						* Font color (Woodsmoke)
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Variables
+
+						* Font size (from our type scale)
+						* BG colors (from our pool of colors)
+						* Margin/Padding (from our spacing scale)
+						* Layout rules (building blocks)
+						* Components inside the banner
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Media
+
+						When to use spot illustrations vs large illustrations vs a photo.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Text
+
+						How large are titles and descriptions? What character length limit do we set? When does the design break due to overflowing text?
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Forms
+
+						When do form inputs and buttons stack? Do they fill our the space they need or all space that's available?
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Spacing Scale
+
+						We need a spacing scale to help pad elements out to give them breathing room
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## What Looks Good?
+
+						We built a tool to help us generate loads of combinations and we picked what looked best based on our rationale
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## What Looks Bad?
+
+						We deliberately picked bad examples to showcase what **not to do**
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Our Rationale
+
+						Based on years of experience as a designer laying out pages in print and digital websites and apps including typesetting, picking colours based on emotions they envoke etc.
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
