@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/culture-trip.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- <section data-markdown>
+					<textarea data-template>
+						# Title 1
+						## Title 2
+						### Title 3
+
+						Text [Link](#) *Italics* **Strong** ~~Strikethrough~~  
+
+						> Blockquotes
+					</textarea>
+				</section> -->
+
+				<section data-markdown data-background-color="#0F4443">
+					<textarea data-template>
+						# Banner Framework
+
+						A presentation from [Mike Stezycki](https://stez.me).
+					</textarea>
+				</section>
+
+				<!-- <section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						# 🙋‍♀️ 
+
+						Hands up if you know what I’m going to be talking about for the next 40 minutes?
+					</textarea>
+				</section> -->
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## ⛰ Background
+
+						Over the year we've shown we can reliably move people around the site using bespoke banners and sticky buttons.
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 🌋 The Problem
+
+						🐢 Iteration is slow  
+						🕒 Outdated creative  
+						🎨 Often bespoke designs  
+						<!-- 🚢 Shipping to UA is hard  
+						🗑 We lose components when tests end   -->
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 😍 What we need
+
+						A **flexible** and **robust** design framework to decide how promotions look, that can be changed easily.
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 💪 What we've done
+
+						☝️ Grouped banners into categories  
+
+						✌️ broken down into parts, stress-tested the parts
+
+						<!-- ✌️ Identified what works and what doesn't. -->
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 🛠 Still to do
+
+						We've limited the scope to two banners but need to explore sticky components and modals.
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/BannerCatBG@2x.png">
+					<textarea data-template>
+						## Two Banner Categories
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/SingleBannerBreakBG@2x.png">
+					<textarea data-template>
+						## Single Action
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/SingleBannerNewsletterBreakBG@2x.png">
+					<textarea data-template>
+						## Newsletter
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## ↔️ Constraints
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/TypeScaleConstraint@2x.png">
+					<textarea data-template>
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/GridConstraint@2x.png">
+					<textarea data-template>
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/SpacingConstraints@2x.png">
+					<textarea data-template>
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9" data-background-image="/img/ColourConstraints@2x.png">
+					<textarea data-template>
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 🔠 Components
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#121416" data-background-video="/mov/TypeScaleConstraint.mov" data-background-opacity="0.5" data-background-video-loop="true">
+					<textarea data-template>
+						## Text
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## Text
+
+						Size of titles and descriptions are within limits. We limit characters per line to a comfortable amount. The layout changes when the design breaks due to overflowing text.
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## Spot Illustration
+
+						<img data-src="img/SpotIllustration@2x.png" alt="" width="300" height="300" class="plain">
+
+						<small>A spot illustration is an image without a square or bordered edge. Useful at smaller sizes to illustrate a single point or detail.</small>
+
+						<!-- When to use spot illustrations vs large illustrations vs a photo. -->
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## ✅ When to use a spot illustration
+
+						<img data-src="img/SpotBanner@2x.png" alt="" class="plain">
+
+						<small>Use when highlighting a single point or detail. Can be used when highlighting multiple points or details but no more than 5</small>
+
+						<!-- When to use spot illustrations vs large illustrations vs a photo. -->
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## 🚫 When not to use a spot illustration
+
+						<img data-src="img/SpotBanner@2x.png" alt="" class="plain">
+
+						<small>Do not use a spot illustration when trying to highlight just one single point or detail when a larger illustration or photo makes sense.</small>
+
+						<!-- When to use spot illustrations vs large illustrations vs a photo. -->
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## Forms
+
+						<video muted loop autoplay controls>
+							<source data-src="/mov/FormStack.mov" type="video/mp4">
+
+							Sorry, your browser doesn't support embedded videos.
+						</video>
+
+						When do form inputs and buttons stack? Do they fill out the space they need or all space that's available?
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## Spacing Scale
+
+						We need a spacing scale to help pad elements out to give them breathing room
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## What Looks Good?
+
+						We built a tool to help us generate loads of combinations and we picked what looked best based on our rationale
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## What Looks Bad?
+
+						We deliberately picked bad examples to showcase what **not to do**
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#C8E3D9">
+					<textarea data-template>
+						## Our Rationale
+
+						Based on years of experience as a designer laying out pages in print and digital websites and apps including typesetting, picking colours based on emotions they envoke etc.
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#121416" data-background-video="/mov/FrameworkAnimation.mp4" data-background-opacity="1" data-background-video-loop="true">
+					<textarea data-template>
+						<!-- ## Banner Footprint -->
+						&emsp;
+						&emsp;
+						&emsp;
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
